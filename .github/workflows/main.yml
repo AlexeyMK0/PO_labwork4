@@ -47,4 +47,3 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest rectangle.py
-        runs-on: ${{matrix.os}}
