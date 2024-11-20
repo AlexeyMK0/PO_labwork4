@@ -27,4 +27,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: Test with unittest
       run: |
-        python.exe -m unittest rectangle.py
+        python -m unittest rectangle.py
